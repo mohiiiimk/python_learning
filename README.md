@@ -1,25 +1,29 @@
-# python_learning
+# Python Learning
 
-My Python learning journey, from basic syntax to deep learning.
+My Python learning journey from fundamentals toward engineering and scientific computing.
 
-This repository contains my exercises and practice code as I learn Python step by step.
+## Current focus
+- Python fundamentals
+- Functions and scope
+- Conditionals
+- Loops
+- Problem solving and debugging
 
-# Topics Covered So Far
+## Next steps
+- Exceptions
+- Libraries
+- File I/O
+- NumPy
+- Scientific computing
+- Data analysis
+- Signal processing
+- Engineering applications
 
-* Data types
-* Slicing
-* Dictionaries
-* `if`, `elif`, `else`
-* `for` loops
-* `range()`
-* `enumerate()`
-* `while` loops
-* Functions
-* Parameters and arguments
-* `return`
-* Default parameters
-* Keyword arguments
+## Repository structure
 
-# My Goal
+- `fundamentals/` — my own Python practice by topic
+- `engineering_practice/` — small engineering-focused exercises
+- `cs50_private_practice/` — keep CS50 problem-set solutions private/local
+- `archive_previous_attempt/` — older exercises from previous learning attempts
 
-Build a strong foundation in Python and gradually apply it to engineering, scientific computing, machine learning, and deep learning, with a focus on applications related to my field of study.
+The goal of this repository is to document progress, not to make every exercise look advanced.

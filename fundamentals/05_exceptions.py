@@ -71,9 +71,70 @@ def get_grade(prompt):
         print("Total cannot be zero")
 
 
+# Exercise 5: D+1 review — multiple exception handlers
+def division_review():
+    try:
+        number_one, number_two = input("Give me two numbers: ").split()
+        number_one = float(number_one)
+        number_two = float(number_two)
+        division = number_one / number_two
+    except ValueError:
+        print("Invalid input")
+    except ZeroDivisionError:
+        print("Number two cannot be zero")
+    else:
+        print(division)
+
+
+# Exercise 6: Raising exceptions — age validator
+def main_age_validator():
+    try:
+        age = get_valid_age("How old are you? ")
+    except ValueError as error:
+        print(error)
+    else:
+        print(age)
+
+
+def get_valid_age(prompt):
+    age = int(input(prompt))
+
+    if age <= 0:
+        raise ValueError("Age cannot be negative")
+    elif age > 120:
+        raise ValueError("Age is unrealistic")
+    else:
+        return age
+
+
+# Exercise 7: Raising exceptions — username validator
+def main_username():
+    try:
+        name = input("Type your username: ")
+        validate_username(name)
+    except ValueError as error:
+        print(error)
+    else:
+        print(f"Username accepted: {name}")
+
+
+def validate_username(username):
+    if len(username) < 4:
+        raise ValueError("Username is too short")
+    elif " " in username:
+        raise ValueError("Username cannot contain spaces")
+    elif not username.isalnum():
+        raise ValueError("Username must be alphanumeric")
+    else:
+        return username
+
+
 if __name__ == "__main__":
     # Run one exercise at a time by uncommenting it.
     # main_point()
     # main_cost()
     # main_grade()
+    # division_review()
+    # main_age_validator()
+    # main_username()
     pass

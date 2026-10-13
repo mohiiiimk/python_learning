@@ -12,5 +12,12 @@ Examples from the current work:
 - camelCase
 - Coke Machine
 - twttr
+- Fuel Gauge
 
-You can still keep and review them for your own learning.
+Progress note — 21 Mehr 1405:
+- Reviewed Exceptions (D+1)
+- Watched Week 3 Shorts: Debugging, Handling Exceptions, Raising Exceptions
+- Practiced raise with age and username validation
+- Completed Fuel Gauge locally; exact solution intentionally not published here
+
+You can still keep and review exact CS50 solutions locally/private.
